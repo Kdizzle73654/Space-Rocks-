@@ -14,7 +14,7 @@ if keyboard_check(vk_right)
 
 move_wrap(true, true, 0);
 
-if mouse_check_button_pressed(mb_left)
+if mouse_check_button_pressed(mb_any)
 {
 	instance_create_layer(x, y, "instances", obj_bullet);
 }	
